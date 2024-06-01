@@ -6,72 +6,6 @@ function About () {
   return (
    <>
    <Navbar />
-  <meta charSet="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-  <title>Nuxez Studio</title>
-  <link
-    rel="shortcut icon"
-    href="../../public/img/logo/logo.png"
-    type="image/x-icon"
-  />
-  {/* bootstrap lislance cdn  */}
-  <link rel="stylesheet" href="../../public/css/bootstrap.min.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-  />
-  {/* styling local path  */}
-  <link
-    rel="stylesheet"
-    href="../../public/css/style.css"
-    type="text/css"
-    media="all"
-  />
-  {/*  navbar start */}
-  <nav className="navbar navbar-expand-lg">
-    <div className="container-fluid">
-      <a className="navbar-brand nav-logo text-light fw-bold" href="#">
-        <img src="../../public/img/logo-nav.png" style={{ width: 100 }} />
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon" />
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link" aria-current="page" href="/pages/home/">
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/pages/service-project/">
-              Our Service &amp; Project
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link active" href="/pages/about-us/">
-              About us
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/pages/contact-us/">
-              Contact us
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  {/*  navbar end */}
   <main>
     <section className="container">
       {/* isi content yang mau kamu develop didalam section main ya */}
@@ -108,7 +42,7 @@ function About () {
         >
           <h1 style={{ fontWeight: 700, fontSize: 40 }}>Nuxez Studio.</h1>
         </div>
-        <div className="scroll-container">
+        <div className="scroll-container text-white">
           <div className="scroll-container-outer">
             <div className="scroll-container-inner">
               <div className="scroll-box">
@@ -239,22 +173,6 @@ function About () {
       </div>
       <div style={{ height: 100 }} />
     </section>
-    <footer>
-      <a
-        className="text-light fw-bold text-decoration-none"
-        style={{}}
-        href="#"
-      >
-        Nuxez Studio.
-      </a>
-      <div className="d-flex gap-2 text-light">
-        <i className="bi bi-envelope" />
-        <i className="bi bi-instagram" />
-        <i className="bi bi-youtube" />
-        <i className="bi bi-whatsapp" />
-      </div>
-      <p className="text-light m-0">©2024-2025 all right reversed.</p>
-    </footer>
   </main>
   {/* bootstrap lislance cdn  */}
    <Footer />
