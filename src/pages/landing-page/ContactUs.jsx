@@ -28,7 +28,7 @@ function ContactUs () {
                 />
               </div>
               <div className="text-left text-white h5 gap-3 mt-3">
-                <p className="bi bi-envelope"> Nuxez Studio@gmail.com</p>
+                <p className="bi bi-envelope"> Nuxez Studio@gmail.comm</p>
                 <p className="bi bi-instagram"> Nuxez Studio.id</p>
               </div>
             </div>
