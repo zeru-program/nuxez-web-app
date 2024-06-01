@@ -84,7 +84,7 @@ function About () {
               <div className="scroll-box">
                 <div className="gradient-blue" />
                 <div className="text-informasi">
-                  <h1 style={{ fontWeight: 700, fontSize: 25 }}>Linggo</h1>
+                  <h1 style={{ fontWeight: 700, fontSize: 25 }}>Linggom</h1>
                   <p style={{ fontSize: 12 }}>Web developer</p>
                   <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
