@@ -8,6 +8,7 @@ function ContactUs () {
    <Navbar />
       INI Contact us
       Perubahan test
+      Test lagi
    <Footer />
    </>
   )
