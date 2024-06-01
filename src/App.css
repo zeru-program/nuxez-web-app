@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*** style design local **/
+:root {
+    --bg-primary: #2A272A;
+ /*   --bg-secondary: #2A272A;*/
+    --color-primary: #FFFFFF;
+    --color-secondary: #d2d2d2;
+    --color-secondary-2: #101010;
+}
+* {
+  box-sizing: border-box;
+}
 
 
 /*** navbar start ***/
@@ -38,6 +51,79 @@
 }
 /*** navbar end ***/
 
+
+
+
+/** main content style **/
+main {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.pi-30 {
+  padding-inline:30px;
+}
+.mi-30 {
+  margin-inline:30px;
+}
+.fz-05 {
+  font-size: .8em;
+}
+.fz-1 {
+  font-size: 1em;
+}
+.fz-2 {
+  font-size: 2em;
+}
+.fz-3 {
+  font-size: 3em;
+}
+
+/** main content style **/
+
+
+
+/*** home style start ***/
+/*media sm */
+@media screen and (max-width:368px) {
+  .box-service {
+    width: 250px;
+  }
+}
+
+/* media md */
+@media screen and (min-width:368px) {
+}
+/* media lg*/
+@media screen and (min-width:768px) {
+.contain-welcome {
+  flex-direction: row !important;
+}
+  .box-service {
+    width: 300px !important;
+  }
+.contain-text-welcome {
+  width: 50% !important;
+  margin-left: 100px !important;
+}
+}
+.box-service {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+}
+/*** home style ending ***/
+
+
+
+/** service project start **/
+@media screen and (min-width:768px) {
+  .scroll-project {
+    overflow-x: hidden !important;
+  }
+}
+/** service project end **/
 
 
 

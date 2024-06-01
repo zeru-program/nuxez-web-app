@@ -2,7 +2,7 @@
 function Footer() {
   return (
    <footer>
-  <a className="text-light fw-bold text-decoration-none" style={{"font-size":"16px"}} href="#">Nuxez Studio.</a>
+  <a className="text-light fw-bold text-decoration-none" style={{"font-size":"16px"}} href="/">Nuxez Studio.</a>
   <div className="d-flex gap-2 text-light">
     <i className="bi bi-envelope" />
     <i className="bi bi-instagram" />
