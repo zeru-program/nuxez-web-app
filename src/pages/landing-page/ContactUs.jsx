@@ -45,7 +45,7 @@ function ContactUs () {
               <form>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">
-                    Name:
+                    Name
                   </label>
                   <input
                     type="text"
