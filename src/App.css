@@ -5,6 +5,7 @@
     --bg-primary: #2A272A;
  /*   --bg-secondary: #2A272A;*/
     --color-primary: #FFFFFF;
+    --color-primary-2: #FE8E4E;
     --color-secondary: #d2d2d2;
     --color-secondary-2: #101010;
 }
@@ -26,14 +27,15 @@
   font-size: .8em;
 }
 .navbar-toggler {
-  background: #FFFFFF !important;
+  background: #FE8E4E !important;
   border-radius: 0 !important;
 }
 .navbar-toggler:focus, .navbar-toggler:hover {
   box-shadow: 0 0 0 !important;
 }
-.navbar-toggler-icon {
-  color: #000000 !important;
+.icon-nav-tg {
+  color: #FFFFFF !important;
+  font-size: 30px;
 }
 .navbar-nav {
   padding-block: 10px;
@@ -106,6 +108,7 @@ main {
 .contain-text-welcome {
   width: 50% !important;
   margin-left: 100px !important;
+  color: #FE8E4E;
 }
 }
 .box-service {
