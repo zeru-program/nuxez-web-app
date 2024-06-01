@@ -6,3 +6,5 @@ function E404 () {
     </>
   )
 }
+
+export default E404
