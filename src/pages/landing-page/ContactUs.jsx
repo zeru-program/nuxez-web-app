@@ -6,7 +6,8 @@ function ContactUs () {
   return (
    <>
    <Navbar />
-   INI Contact us
+      INI Contact us
+      Perubahan test
    <Footer />
    </>
   )
