@@ -1,0 +1,12 @@
+<script type="text/javascript" charset="utf-8">
+  const isLaravel = 0; // make server laravel 127 di localhost
+  const isReact = 1; //make server react js 5173 di localhost
+  if (isLaravel == 1) {
+    window.location.href = 'http://localhost:8000/';
+  } else if (isReact == 1) {
+    window.location.href = 'http://localhost:5173/';
+  } else {
+    alert('woi kasih value lah mau diserver mana!');
+  }
+  
+</script>
