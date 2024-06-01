@@ -8,8 +8,6 @@ import ContactUs from './pages/landing-page/ContactUs.jsx'
 import E404 from './pages/errors/E404.jsx'
 
 function RouterApp() {
-
-  alert('home')
   return (
      <Router>
       <Routes>

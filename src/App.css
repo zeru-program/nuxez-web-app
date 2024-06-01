@@ -1,0 +1,58 @@
+
+
+/*** navbar start ***/
+.navbar {
+  background: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  padding-block: 15px !important;
+}
+.nav-logo {
+  font-size: .8em;
+}
+.navbar-toggler {
+  background: #FFFFFF !important;
+  border-radius: 0 !important;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+  box-shadow: 0 0 0 !important;
+}
+.navbar-toggler-icon {
+  color: #000000 !important;
+}
+.navbar-nav {
+  padding-block: 10px;
+  gap: 10px;
+}
+.navbar-collapse {
+  color: white !important;
+}
+.nav-link.active {
+  color: #FFFFFF !important;
+}
+ .nav-link {
+  color: #8e8e8e !important;
+  font-weight: 600;
+}
+/*** navbar end ***/
+
+
+
+
+
+
+/*** footer ***/
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  text-align: center;
+  padding-block: 25px;
+  width: 100%;
+  height: auto;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(85,85,85,1) 100%);
+}
