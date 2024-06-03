@@ -37,7 +37,7 @@ function Footer() {
           <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <h6 className="text-uppercase fw-bold mb-4">
               <i className="bi bi-gem me-3" />
-              Nuxez Studio Indonesia
+              Nuxez Studio Indonesia.
             </h6>
             <p>
              Nuxez Studio Indonesia merupakan sebuah komunitas yang menggemari bahasa pemrograman. Kami membentuk wadah untuk bisa saling berkembang dengan berdiskusi dan mengerjakan projek-projek yang dinilai mampu mendongkrak potensi setiap anggota di dalamnya.
