@@ -142,11 +142,17 @@
 main {
   width: 100%;
   height: auto;
+  padding-inline: 0 !important;
   padding-top: 10px;
   overflow: hidden;
 }
+#root {
+}
 .pi-30 {
   padding-inline:30px;
+}
+.pi-20 {
+  padding-inline:18px;
 }
 .mi-30 {
   margin-inline:30px;

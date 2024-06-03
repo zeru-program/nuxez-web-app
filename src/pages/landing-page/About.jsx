@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Splash from './Splash'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import AboutComponentDesc from './AboutComponentDesc'
 
 function About () {
   return (
@@ -22,22 +23,12 @@ function About () {
           >
             <img className="animated bounceIn"
               style={{ width: 150 }}
-              src="../../public/img/logo.svg"
+              src="/img/logo.svg"
               alt=""
             />
           </div>
-          <div className="animated fadeInLeft text-left text-white" style={{ marginLeft: 20 }}>
-            <h1 style={{ fontWeight: 700, fontSize: 40 }}>About US</h1>
-            <p style={{ wordWrap: "break-word", fontSize: 13 }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              nostrum, repellendus nam doloribus laboriosam dignissimos adipisci
-              maiores quas? Cumque, consectetur! Assumenda dolorum dolorem
-              accusantium officiis impedit eius quasi a unde. Sint dolorum,
-              beatae laboriosam velit nulla eius dolore. Laboriosam expedita
-              deleniti in nulla aliquam id amet fugit obcaecati maxime? Cumque!
-            </p>
+          <AboutComponentDesc />
           </div>
-        </div>
         <div
           className="text-left text-white"
           style={{ marginLeft: 20, marginTop: 100 }}
@@ -48,11 +39,13 @@ function About () {
           <div className="scroll-container-outer">
             <div className="scroll-container-inner">
               <div className="scroll-box">
-                <div className="gradient-blue" />
+                <div className="gradient-blue overflow-hidden">
+                 <img src="/img/zeru-member.png" alt="img member" className="w-100" />
+                </div>
                 <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Zeru</h1>
                   <p style={{ fontSize: 12 }}>
-                    Web developer &amp; Full stack developer
+                    Web developer
                   </p>
                   <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +63,7 @@ function About () {
                 <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Israjul</h1>
                   <p style={{ fontSize: 12 }}>
-                    Project Manager &amp; App developer
+                    App developer
                   </p>
                   <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
