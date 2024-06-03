@@ -5,6 +5,7 @@ import Footer from './Footer'
 import AboutComponentDesc from './AboutComponentDesc'
 
 function About () {
+    let memberDesc = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque temporibus hic harum alias odit voluptatem. A sequi non commodi, provident ea recusandae quos nemo vitae voluptatem ad dolores ipsam debitis ipsa omnis consequuntur iste aperiam nam veniam, culpa odit quaerat consectetur. Dolor alias maiores itaque iure provident accusantium quas tempora.';
   return (
    <>
    <Splash />
@@ -48,13 +49,7 @@ function About () {
                     Web developer
                   </p>
                   <p style={{ fontSize: 12, wordWrap: "break-word" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque temporibus hic harum alias odit voluptatem. A sequi
-                    non commodi, provident ea recusandae quos nemo vitae
-                    voluptatem ad dolores ipsam debitis ipsa omnis consequuntur
-                    iste aperiam nam veniam, culpa odit quaerat consectetur.
-                    Dolor alias maiores itaque iure provident accusantium quas
-                    tempora.
+                    {memberDesc}
                   </p>
                 </div>
               </div>
@@ -63,7 +58,7 @@ function About () {
                 <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Israjul</h1>
                   <p style={{ fontSize: 12 }}>
-                    App developer
+                    App developerhj
                   </p>
                   <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
