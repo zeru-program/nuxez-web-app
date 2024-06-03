@@ -68,7 +68,7 @@ function About () {
               <div className="scroll-box">
                 <div className="gradient-blue" />
                 <div className="text-informasi">
-                  <h1 style={{ fontWeight: 700, fontSize: 25 }}>IsRajul</h1>
+                  <h1 style={{ fontWeight: 700, fontSize: 25 }}>Israjul</h1>
                   <p style={{ fontSize: 12 }}>
                     Project Manager &amp; App developer
                   </p>
@@ -136,7 +136,7 @@ function About () {
               <div className="scroll-box">
                 <div className="gradient-blue" />
                 <div className="text-informasi">
-                  <h1 style={{ fontWeight: 700, fontSize: 25 }}>Fauzi</h1>
+                  <h1 style={{ fontWeight: 700, fontSize: 25 }}>Axelle</h1>
                   <p style={{ fontSize: 12 }}>
                     Q&amp;A Tester &amp; Web support
                   </p>
@@ -153,23 +153,61 @@ function About () {
               </div>
               <div className="scroll-box">
                 <div className="gradient-blue" />
-                <div className="text-informasi">
-                  <h1 style={{ fontWeight: 700, fontSize: 25 }}>Fauzi</h1>
-                  <p style={{ fontSize: 12 }}>
-                    Q&amp;A Tester &amp; Web support
-                  </p>
-                  <p style={{ fontSize: 12, wordWrap: "break-word" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque temporibus hic harum alias odit voluptatem. A sequi
-                    non commodi, provident ea recusandae quos nemo vitae
-                    voluptatem ad dolores ipsam debitis ipsa omnis consequuntur
-                    iste aperiam nam veniam, culpa odit quaerat consectetur.
-                    Dolor alias maiores itaque iure provident accusantium quas
-                    tempora.
-                  </p>
+                  <div className="text-informasi">
+                    <h1 style={{ fontWeight: 700, fontSize: 25 }}>Ghanim</h1>
+                    <p style={{ fontSize: 12 }}>
+                      Q&amp;A Tester &amp; Web support
+                    </p>
+                    <p style={{ fontSize: 12, wordWrap: "break-word" }}>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque temporibus hic harum alias odit voluptatem. A sequi
+                      non commodi, provident ea recusandae quos nemo vitae
+                      voluptatem ad dolores ipsam debitis ipsa omnis consequuntur
+                      iste aperiam nam veniam, culpa odit quaerat consectetur.
+                      Dolor alias maiores itaque iure provident accusantium quas
+                      tempora.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
+              <div className="scroll-box">
+                <div className="gradient-blue" />
+                  <div className="text-informasi">
+                    <h1 style={{ fontWeight: 700, fontSize: 25 }}>Najih</h1>
+                    <p style={{ fontSize: 12 }}>
+                      Q&amp;A Tester &amp; Web support
+                    </p>
+                    <p style={{ fontSize: 12, wordWrap: "break-word" }}>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque temporibus hic harum alias odit voluptatem. A sequi
+                      non commodi, provident ea recusandae quos nemo vitae
+                      voluptatem ad dolores ipsam debitis ipsa omnis consequuntur
+                      iste aperiam nam veniam, culpa odit quaerat consectetur.
+                      Dolor alias maiores itaque iure provident accusantium quas
+                      tempora.
+                    </p>
+                  </div>
+                </div>
+              </div>  
+              <div className="scroll-box">
+                <div className="gradient-blue" />
+                  <div className="text-informasi">
+                    <h1 style={{ fontWeight: 700, fontSize: 25 }}>John</h1>
+                    <p style={{ fontSize: 12 }}>
+                      Q&amp;A Tester &amp; Web support
+                    </p>
+                    <p style={{ fontSize: 12, wordWrap: "break-word" }}>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque temporibus hic harum alias odit voluptatem. A sequi
+                      non commodi, provident ea recusandae quos nemo vitae
+                      voluptatem ad dolores ipsam debitis ipsa omnis consequuntur
+                      iste aperiam nam veniam, culpa odit quaerat consectetur.
+                      Dolor alias maiores itaque iure provident accusantium quas
+                      tempora.
+                    </p>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
