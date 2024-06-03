@@ -38,12 +38,12 @@ function ContactUs () {
           <div className="col-md-6 contact-form">
             <div className="d-flex flex-column" style={{ fontSize: 16 }}>
               <h1 className="text-center fz-2 text-light fw-bold">
-                <p className="animated fadeInLeft">Contact Ussss</p>
+                <p className="animated fadeInLeft">Contact Us</p>
               </h1>
               <ContactUsMap />
             </div>
             <div className="d-flex flex-column fadeIn animated" style={{ marginTop: 150 }}>
-              <h2 className="text-left text-white fe-bold">Feedbacksss</h2>
+              <h2 className="text-left text-white fe-bold">Feedback</h2>
               <form>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">
