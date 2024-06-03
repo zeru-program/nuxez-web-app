@@ -40,7 +40,7 @@ function Footer() {
               Nuxez Studio Indonesia
             </h6>
             <p>
-              Nuxez Studio Indonesia merupakan sebuah komunitas yang menggemari bahasa pemrograman. Kami membentuk wadah untuk kami bisa saling berkembang dengan berdiskusi dan mengerjakan projek-projek yang dinilai mampu mendongkrak potensi setiap anggota di dalamnya.
+             Nuxez Studio Indonesia merupakan sebuah komunitas yang menggemari bahasa pemrograman. Kami membentuk wadah untuk bisa saling berkembang dengan berdiskusi dan mengerjakan projek-projek yang dinilai mampu mendongkrak potensi setiap anggota di dalamnya.
             </p>
           </div>
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -109,12 +109,18 @@ function Footer() {
       </div>
     </section>
     <div
+<<<<<<< HEAD
       className="text-center w-100 px-4"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
           <p className="text-light m-0">Version app 1.0.0</p>
           <p className="text-light m-0">Copyright &copy;
             {startYear == 2024 ? startYear : startYear + ' - ' + currentYear}
            Nuxez studio.  all right reversed.</p>
+=======
+      className="text-center"
+      style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
+          <p className="text-light m-0">Copyright &copy; {startYear == 2024 ? startYear : startYear + ' - ' + currentYear} all right reversed.</p>
+>>>>>>> 1da6d1aa95919a49a0b2d358b80815542d66edb2
     </div>
   </footer>
 </>
