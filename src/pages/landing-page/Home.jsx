@@ -3,6 +3,8 @@ import Splash from './Splash'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import AboutComponentDesc from './AboutComponentDesc'
+import BtnLogin from './BtnLogin'
+
 
 function Welcoming() {
     
@@ -79,7 +81,7 @@ function ServiceHome () {
     <>
     {/*   our service home start  */}
     <div className="w-100 container mt-5 py-5 gap-3 text-light d-flex flex-column">
-      <h1 className="pi-30 m-0 fw-bold fz-2">Our Service</h1>
+      <h1 className="pi-30 m-0 fw-bold fz-2" id="service">Our Service</h1>
       <div className="d-flex flex-row px-3 gap-3 overflow-x-auto w-100" style={{}}>
         <div className="rounded-2 d-flex px-3 gap-3 justify-content-center align-items-start flex-column box-service" style={{"background":"#000000"}}>
           <h1 className="m-0 fw-bold">Website Builder</h1>
@@ -100,6 +102,13 @@ function ServiceHome () {
           <p className="m-0 fz-05" style={{"padding-right":"20px"}}>Kami membuka jasa layanan pembuatan design untuk website maupun aplikasi dengan menggunakan elemen UI yang modern.</p>
           <div className="w-100 d-flex justify-content-start">
             <button className="fw-bold bg-light border-0 py-1 px-3" style={{"color":"#000000"}} onClick={() => handleOrder('UI UX DESIGNER')}>ORDER &gt;&gt;&gt;</button>
+          </div>
+        </div>
+        <div className="rounded-2 d-flex px-3 gap-3 justify-content-center align-items-start flex-column box-service" style={{"background":"#000000"}}>
+          <h1 className="m-0 fw-bold">Source code website/apk</h1>
+          <p className="m-0 fz-05" style={{"padding-right":"20px"}}>Kami menjual source code website maupun aplikasi yang sangat bermanfaat untuk anda dengan harga terjangkau! banyak pilihan bisa kalian pilih.</p>
+          <div className="w-100 d-flex justify-content-start">
+            <button className="fw-bold bg-light border-0 py-1 px-3" style={{"color":"#000000"}} onClick={() => handleOrder('source code web/apk')}>ORDER &gt;&gt;&gt;</button>
           </div>
         </div>
         <div className="rounded-2 d-flex px-3 gap-3 justify-content-center align-items-start flex-column box-service" style={{"background":"#000000"}}>
@@ -148,6 +157,7 @@ function Home () {
   </section>
    <Footer />
 </main>
+   <BtnLogin />
    </>
   )
 }

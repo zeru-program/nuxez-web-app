@@ -7,6 +7,8 @@ import Service from './pages/landing-page/Service.jsx'
 import About from './pages/landing-page/About.jsx'
 import ContactUs from './pages/landing-page/ContactUs.jsx'
 import E404 from './pages/errors/E404.jsx'
+import Login from './pages/auth/Login.jsx'
+import Register from './pages/auth/Register.jsx'
 
 function RouterApp() {
  /*useEffect(() => {
@@ -25,6 +27,8 @@ function RouterApp() {
        <Route path="/our-service" element={<Service />} />
        <Route path="/about-us" element={<About />} />
        <Route path="/contact-us" element={<ContactUs />} />
+       <Route path="/login" element={<Login />} />
+       <Route path="/register" element={<Register />} />
        <Route path="*" element={<E404 />} />
       </Routes>
      </Router>

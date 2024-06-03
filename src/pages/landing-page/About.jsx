@@ -3,6 +3,7 @@ import Splash from './Splash'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import AboutComponentDesc from './AboutComponentDesc'
+import BtnLogin from './BtnLogin'
 
 function About () {
   return (
@@ -171,6 +172,7 @@ function About () {
   </main>
   {/* bootstrap lislance cdn  */}
    <Footer />
+   <BtnLogin />
    </>
   )
 }

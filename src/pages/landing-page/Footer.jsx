@@ -1,4 +1,5 @@
 
+
 function Footer() {
     let startYear = 2024;
     let currentYear = (new Date().getFullYear());
@@ -39,52 +40,52 @@ function Footer() {
               Nuxez Studio Indonesia
             </h6>
             <p>
-              Nuxez Studio Indonesia merupakan sebuah komunitas yang menggemari bahasa pemrograman. Kami membentuk wadah untuk kai bisa saling berkembang dengan berdiskusi dan mengerjakan projek-projek yang dinilai mampu mendongkrak potensi setiap anggota di dalamnya.
+              Nuxez Studio Indonesia merupakan sebuah komunitas yang menggemari bahasa pemrograman. Kami membentuk wadah untuk kami bisa saling berkembang dengan berdiskusi dan mengerjakan projek-projek yang dinilai mampu mendongkrak potensi setiap anggota di dalamnya.
             </p>
           </div>
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+            <h6 className="text-uppercase fw-bold mb-4">Products & Service </h6>
             <p>
-              <a href="#!" className="text-reset">
-                Angular
+              <a href="/#service" className="text-reset">
+                Website builder
               </a>
             </p>
             <p>
-              <a href="#!" className="text-reset">
-                React
+              <a href="/#service" className="text-reset">
+                Application builder
               </a>
             </p>
             <p>
-              <a href="#!" className="text-reset">
-                Vue
+              <a href="/#service" className="text-reset">
+                Designer
               </a>
             </p>
             <p>
-              <a href="#!" className="text-reset">
-                Laravel
+              <a href="/#service" className="text-reset">
+                Source code
               </a>
             </p>
           </div>
           <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+            <h6 className="text-uppercase fw-bold mb-4">Navigation</h6>
             <p>
-              <a href="#!" className="text-reset">
-                Pricing
+              <a href="/" className="text-reset">
+                Home
               </a>
             </p>
             <p>
-              <a href="#!" className="text-reset">
-                Settings
+              <a href="/our-service" className="text-reset">
+                Our Service
               </a>
             </p>
             <p>
-              <a href="#!" className="text-reset">
-                Orders
+              <a href="/about-us" className="text-reset">
+                About us
               </a>
             </p>
             <p>
-              <a href="#!" className="text-reset">
-                Help
+              <a href="/contact-us" className="text-reset">
+                Contact us
               </a>
             </p>
           </div>
@@ -95,24 +96,25 @@ function Footer() {
             </p>
             <p>
               <i className="fas fa-envelope me-3" />
-              nuxezstudio@gmail.com
+              nuxezstudio2024@gmail.com
             </p>
             <p>
-              <i className="fas fa-phone me-3" /> + 01 234 567 87
+              <i className="fas fa-phone me-3" /> +6287774487198
             </p>
             <p>
-              <i className="fas fa-print me-3" /> + 01 234 567 88
+              <i className="fas fa-print me-3" /> +6287815832805
             </p>
           </div>
         </div>
       </div>
     </section>
     <div
-      className="text-center p-4"
+      className="text-center w-100 px-4"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
+          <p className="text-light m-0">Version app 1.0.0</p>
           <p className="text-light m-0">Copyright &copy;
             {startYear == 2024 ? startYear : startYear + ' - ' + currentYear}
-            all right reversed.</p>
+           Nuxez studio.  all right reversed.</p>
     </div>
   </footer>
 </>

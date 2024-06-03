@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Splash from './Splash'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import BtnLogin from './BtnLogin'
 
 function ContactUsMap(){
   return(
@@ -94,6 +95,7 @@ function ContactUs () {
   </main>
 
    <Footer />
+   <BtnLogin />
    </>
   )
 }
