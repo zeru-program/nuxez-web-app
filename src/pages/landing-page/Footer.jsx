@@ -66,33 +66,10 @@ function Footer() {
               </a>
             </p>
           </div>
-          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 className="text-uppercase fw-bold mb-4">Navigation</h6>
-            <p>
-              <a href="/" className="text-reset">
-                Home
-              </a>
-            </p>
-            <p>
-              <a href="/our-service" className="text-reset">
-                Our Service
-              </a>
-            </p>
-            <p>
-              <a href="/about-us" className="text-reset">
-                About us
-              </a>
-            </p>
-            <p>
-              <a href="/contact-us" className="text-reset">
-                Contact us
-              </a>
-            </p>
-          </div>
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
             <p>
-              <i className="fas fa-home me-3" /> Jakarta, Indonesia
+              <i className="bi bi-home me-3" /> Jakarta, Indonesia
             </p>
             <p>
               <i className="fas fa-envelope me-3" />
