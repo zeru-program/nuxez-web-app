@@ -153,7 +153,6 @@ function About () {
       <div style={{ height: 100 }} />
     </section>
   </main>
-  {/* bootstrap lislance cdn  */}
    <Footer />
    <BtnLogin />
    </>
