@@ -108,11 +108,9 @@ function Footer() {
       </div>
     </section>
     <div
-      className="text-center p-4"
+      className="text-center"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
-          <p className="text-light m-0">Copyright &copy;
-            {startYear == 2024 ? startYear : startYear + ' - ' + currentYear}
-            all right reversed.</p>
+          <p className="text-light m-0">Copyright &copy; {startYear == 2024 ? startYear : startYear + ' - ' + currentYear} all right reversed.</p>
     </div>
   </footer>
 </>
