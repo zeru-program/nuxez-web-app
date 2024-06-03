@@ -38,7 +38,7 @@ function ContactUs () {
           <div className="col-md-6 contact-form">
             <div className="d-flex flex-column" style={{ fontSize: 16 }}>
               <h1 className="text-center fz-2 text-light fw-bold">
-                <p className="animated fadeInLeft">Contact Us</p>
+                <p className="animated fadeInLeft">Contact Ussss</p>
               </h1>
               <ContactUsMap />
             </div>
