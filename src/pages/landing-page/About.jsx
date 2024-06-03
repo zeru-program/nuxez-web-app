@@ -1,10 +1,12 @@
 import { useState } from 'react'
+import Splash from './Splash'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
 function About () {
   return (
    <>
+   <Splash />
    <Navbar />
   <main>
     <section className="container">
@@ -18,13 +20,13 @@ function About () {
             className="d-flex justify-content-center align-items-center"
             style={{ height: 200 }}
           >
-            <img
+            <img className="animated bounceIn"
               style={{ width: 150 }}
               src="../../public/img/logo.svg"
               alt=""
             />
           </div>
-          <div className="text-left text-white" style={{ marginLeft: 20 }}>
+          <div className="animated fadeInLeft text-left text-white" style={{ marginLeft: 20 }}>
             <h1 style={{ fontWeight: 700, fontSize: 40 }}>About US</h1>
             <p style={{ wordWrap: "break-word", fontSize: 13 }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo

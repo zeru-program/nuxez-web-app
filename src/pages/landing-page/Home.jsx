@@ -1,17 +1,17 @@
-import { useState } from 'react'
+import { React, useEffect, useState } from 'react'
+import Splash from './Splash'
 import Navbar from './Navbar'
 import Footer from './Footer'
-
 
 function Welcoming() {
     return (
         <>
     {/* welcoming start  */}
     <div className="w-100 pi-30 contain-welcome gap-3 d-flex justify-content-center align-items-center flex-column" style={{"height":"100vh"}}>
-      <img className src="../../public/img/logo.svg" alt="logo" style={{"width":"200px"}} />
-      <div className="w-100 contain-text-welcome d-flex flex-column">
+      <img className="wow animated bounceIn" src="../../public/img/logo.svg" alt="logo" style={{"width":"200px"}} />
+      <div className="w-100 wow fadeInLeft animated contain-text-welcome d-flex flex-column">
         <div id="ganti" className="text-light w-100 justify-content-start d-flex flex-column" style={{"-webkit-text-align":"left","text-align":"left"}}>
-          <h1 className="m-0 fw-bold fz-3" style={{color: "#FE8E4E"}}>Welcome</h1>
+          <h1 className="m-0 wow fadeInLeft animated fw-bold fz-3" style={{color: "#FE8E4E"}}>Welcome</h1>
           <p className="m-0 fz-05">to Nuxez studio!</p>
           <p className="m-0 fz-05">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, accusamus! Voluptate numquam dolores at nostrum maiores quidem, velit natus id quibusdam autem. Animi et illum, possimus asperiores error ullam quidem!</p>
         </div>
@@ -29,12 +29,12 @@ function VisiMisi () {
     return (
     <>
     {/* Visi Misi Start */}
-    <div className="w-100 py-5 gap-5 pi-30 d-flex flex-column text-light" style={{"background":"linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(56,56,56,1) 60%, rgba(85,85,85,1) 86%)"}}>
+    <div className="w-100 wow fadeIn animated py-5 gap-5 pi-30 d-flex flex-column text-light" style={{"background":"linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(56,56,56,1) 60%, rgba(85,85,85,1) 86%)"}}>
       <div className="w-100 d-flex flex-column">
         <h1 className="m-0 fw-bold" style={{color: "#FE8E4E"}}>Visi</h1>
         <p className="m-0">Membuat aplikasi yang bermanfaat bagi banyak orang, dengan mengutamakan kompleksitas user.</p>
       </div>
-      <div className="w-100 d-flex flex-column">
+      <div className="w-100 d-flex flex-column wow animated fadeIn">
         <h1 className="m-0 fw-bold" style={{color: "#FE8E4E"}}>Misi</h1>
         <p className="m-0">Membuka jasa pembuatan website maupun pengembangan suatu aplikasi web, dengan harga terjangkau.</p>
       </div>
@@ -112,8 +112,10 @@ function AboutInHome () {
 
 
 function Home () {
+
   return (
    <>
+   <Splash />
    <Navbar />
    <main>
   <section className="container px-0 pb-5" style={{"padding-inline":"0 !important"}}>

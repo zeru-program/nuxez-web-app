@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Splash from './Splash'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
@@ -8,11 +9,11 @@ function ServiceP () {
     return (
         <>
     {/* service start */}
-    <div className="w-100 d-flex flex-column pi-30 mt-5 text-light">
+    <div className="w-100 d-flex wow fadeInDown animated flex-column pi-30 mt-5 text-light">
       <h1 className="fw-bold fz-2 m-0">Service</h1>
       <p className="m-0 fz-05">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, alias reprehenderit ipsum fuga iusto officiis totam maxime. Velit, dolore modi.</p>
     </div>
-    <div className="w-100 d-flex pi-30 mt-3 flex-wrap gap-3 text-light">
+    <div className="w-100 wow animated fadeIn d-flex pi-30 mt-3 flex-wrap gap-3 text-light">
       <div className="rounded-2 d-flex px-3 gap-3 justify-content-center align-items-start flex-column box-service" style={{"background":"#000000"}}>
         <h1 className="m-0 fw-bold">Website Builder</h1>
         <p className="m-0 fz-05" style={{"padding-right":"20px"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum repellendus, dolorem fugiat aliquam corrupti est!</p>
@@ -86,6 +87,7 @@ function Project () {
 function Service () {
   return (
    <>
+   <Splash />
    <Navbar />
    <main>
   <section className="container pt-5 pb-5">
