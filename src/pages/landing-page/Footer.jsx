@@ -11,22 +11,22 @@ function Footer() {
         <span>Get connected with us on social networks:</span>
       </div>
       <div>
-        <a href="" className="me-4 text-reset">
+        <a href="https://www.facebook.com/profile.php?id=61560114616142" className="me-4 text-reset">
           <i className="bi bi-facebook" />
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="https://www.instagram.com/nuxezstudio/" className="me-4 text-reset">
           <i className="bi bi-instagram" />
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="https://www.youtube.com/linggommarpaung31" className="me-4 text-reset">
           <i className="bi bi-youtube" />
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="https://chat.whatsapp.com/Ch7ni7hyHNhHoKSA8xowK7" className="me-4 text-reset">
           <i className="bi bi-whatsapp" />
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="mailto:nuxezstudio@gmail.com" className="me-4 text-reset">
           <i className="bi bi-envelope" />
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="https://github.com/nuxezstudio" className="me-4 text-reset">
           <i className="bi bi-github" />
         </a>
       </div>
