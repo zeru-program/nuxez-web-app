@@ -18,8 +18,8 @@ function ContactUsMap(){
         />
     </div>
               <div className="text-left text-white animated fadeIn h5 gap-3 mt-3">
-                <p className="bi bi-envelope"> Nuxez Studio@gmail.com</p>
-                <p className="bi bi-instagram"> Nuxez Studio.id</p>
+                <p className="bi bi-envelope"> nuxezstudio@gmail.com</p>
+                <p className="bi bi-instagram"> nuxez.studio.id</p>
               </div>
     </>
   )
