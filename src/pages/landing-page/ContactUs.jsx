@@ -43,7 +43,7 @@ function ContactUs () {
               <ContactUsMap />
             </div>
             <div className="d-flex flex-column fadeIn animated" style={{ marginTop: 150 }}>
-              <h2 className="text-left text-white fe-bold">Feedback</h2>
+              <h2 className="text-left text-white fe-bold">Feedbacksss</h2>
               <form>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">
