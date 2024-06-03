@@ -6,20 +6,9 @@ import Footer from './Footer'
 function ContactUsMap(){
   return(
     <>
-    <div className="ratio animated bounceInDown ratio-16x9 my-2">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222771.46199500587!2d106.829518!3d-6.2297465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2C%20Indonesia!5e1!3m2!1sid!2sde!4v1713439639186!5m2!1sid!2sde"
-        width={600}
-        height={450}
-        style={{ border: 0 }}
-        allowFullScreen=""
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-        />
-    </div>
-              <div className="text-left text-white animated fadeIn h5 gap-3 mt-3">
-                <p className="bi bi-envelope"> nuxezstudio@gmail.com</p>
-                <p className="bi bi-instagram"> nuxez.studio.id</p>
+              <div className="text-center text-white animated fadeIn h5 gap-3 mt-3">
+                <p className="bi bi-envelope"> nuxezstudio2024@gmail.com</p>
+                <p className="bi bi-instagram"> nuxezstudio.id</p>
               </div>
     </>
   )
