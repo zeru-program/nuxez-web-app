@@ -9,7 +9,7 @@ function Footer() {
     <i className="bi bi-youtube" />
     <i className="bi bi-whatsapp" />
   </div>
-  <p className="text-light m-0">©2024-2025 all right reversed.</p>
+  <p className="text-light m-0">©2024-2025 all right reversed</p>
 </footer>
   )
 }
