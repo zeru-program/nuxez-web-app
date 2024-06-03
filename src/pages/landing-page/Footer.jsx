@@ -39,7 +39,7 @@ function Footer() {
               Nuxez Studio Indonesia
             </h6>
             <p>
-              Nuxez Studio Indonesia merupakan sebuah komunitas yang menggemari bahasa pemrograman. Kami membentuk wadah untuk kai bisa saling berkembang dengan berdiskusi dan mengerjakan projek-projek yang dinilai mampu mendongkrak potensi setiap anggota di dalamnya.
+              Nuxez Studio Indonesia merupakan sebuah komunitas yang menggemari bahasa pemrograman. Kami membentuk wadah untuk bisa saling berkembang dengan berdiskusi dan mengerjakan projek-projek yang dinilai mampu mendongkrak potensi setiap anggota di dalamnya.
             </p>
           </div>
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
