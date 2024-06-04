@@ -6,10 +6,10 @@ import Footer from './Footer'
 function ContactUsMap(){
   return(
     <>
-              <div className="text-center text-white animated fadeIn h5 gap-3 mt-3">
-                <p className="bi bi-envelope"> nuxezstudio2024@gmail.com</p>
-                <p className="bi bi-instagram"> nuxezstudio.id</p>
-              </div>
+      <div className="text-center text-white animated fadeIn h5 gap-3 mt-3">
+        <p className="bi bi-envelope"> nuxezstudio2024@gmail.com</p>
+        <p className="bi bi-instagram"> nuxezstudio.id</p>
+      </div>
     </>
   )
 }
