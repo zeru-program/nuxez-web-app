@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Splash from './Splash'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import BtnLogin from './BtnLogin'
 
 
 
@@ -51,6 +52,13 @@ function ServiceP () {
           </div>
         </div>
         <div className="rounded-2 d-flex px-3 gap-3 justify-content-center align-items-start flex-column box-service" style={{"background":"#000000"}}>
+          <h1 className="m-0 fw-bold">Source code website/apk</h1>
+          <p className="m-0 fz-05" style={{"padding-right":"20px"}}>Kami menjual source code website maupun aplikasi yang sangat bermanfaat untuk anda dengan harga terjangkau! banyak pilihan bisa kalian pilih.</p>
+          <div className="w-100 d-flex justify-content-start">
+            <button className="fw-bold bg-light border-0 py-1 px-3" style={{"color":"#000000"}} onClick={() => handleOrder('source code web/apk')}>ORDER &gt;&gt;&gt;</button>
+          </div>
+        </div>
+        <div className="rounded-2 d-flex px-3 gap-3 justify-content-center align-items-start flex-column box-service" style={{"background":"#000000"}}>
           <h1 className="m-0 fw-bold">Logo maker</h1>
           <p className="m-0 fz-05" style={{"padding-right":"20px"}}>Kami menerima pembuatan logo sesuai kebutuhan mu, dengan menggunakan elemen yang modern dan clean.</p>
           <div className="w-100 d-flex justify-content-start">
@@ -68,8 +76,8 @@ function ProjectComponent () {
       <div className="rounded-2 pb-2 overflow-hidden d-flex gap-1 align-items-start flex-column box-service" style={{"background":"#000000","height":"auto !important"}} onclick="window.location.href = 'https://'">
         <img src className="w-100" style={{"height":"200px","background-image":"linear-gradient(to right, #445dec, #6f0ed6)","color":"rgb(42, 48, 214)"}} alt />
         <div className="d-flex flex-column px-2">
-          <h3 className="m-0 fw-bold">Calculator Apps</h3>
-          <p className="m-0 fz-05" style={{"padding-right":"20px"}}>Monday, 02-04-2024 (comimg soon)</p>
+          <h3 className="m-0 fw-bold">NuxApp (chatting chat)</h3>
+          <p className="m-0 fz-05" style={{"padding-right":"20px"}}>(coming soon)</p>
         </div>
       </div>
     )
@@ -85,7 +93,6 @@ function Project () {
     </div>
     <div className="d-flex flex-row text-light pi-30 mt-3 gap-3 overflow-x-auto scroll-project">
      <ProjectComponent />
-     <p>Project kami sedang tahap pengerjaan</p>
     </div>
     {/*   project end */}
         </>
@@ -105,6 +112,7 @@ function Service () {
   </section>
    <Footer />
 </main>
+<BtnLogin />
    </>
   )
 }

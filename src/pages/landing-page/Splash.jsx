@@ -13,14 +13,10 @@ function Splash () {
   }, []);
   
     return (
-    <div className={`${splashOn} loadingio-spinner-dual-ball-2by998twmg8`}>
-    <div className="con-ldio position-relative">
-    <div className="ldio-yzaezf3dcmj">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    </div>
+    <div className={`${splashOn} text-light con-splash`}>
+    <div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
     </div>
     )
 }

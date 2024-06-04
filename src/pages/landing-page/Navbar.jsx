@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand nav-logo text-light fw-bold" href="#">
+        <a className="navbar-brand nav-logo text-light fw-bold" href="/">
           <img src="/img/logo-nav.png" style={{ width: '100px' }} alt="logo" />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
