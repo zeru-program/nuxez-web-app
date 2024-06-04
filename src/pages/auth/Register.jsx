@@ -31,6 +31,10 @@ function Box () {
            alert('isi semua input dengan benar!')
            return
        }
+       if (usnInput === 'admin') {
+           alert('username sudah digunakan, gunakan yang lain')
+           return
+       }
        if (usnInput.length < 5 || passInput.length < 5 ) {
         alert('username atau password harus lebih dari 5 kata')
            return
@@ -45,9 +49,8 @@ function Box () {
             })
             .then(res => {
                 if (res.ok) {
-                    alert('successfuly created a account')
-                    login()
-                    window.location.href = '/?auth=done'
+                    alert('successfuly created a account, now please login')
+                    window.location.href = '/login?auth=done'
                 } else {
                     alert("error!")
                 }
@@ -75,6 +78,12 @@ function Box () {
 }
 
 function Register () {
+    const isLogin = localStorage.getItem("isLogin")
+    
+    if (isLogin) {
+        window.location.href="/?auth=rejected"
+        return
+    }
   return (
    <>
    <Navbar />

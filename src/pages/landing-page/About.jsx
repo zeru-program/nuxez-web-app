@@ -55,7 +55,9 @@ function About () {
                 </div>
               </div>
               <div className="scroll-box">
-                <div className="gradient-blue" />
+                <div className="gradient-blue overflow-hidden">
+                 <img src="/img/isra-member.png" alt="img member" className="w-100" />
+                </div>
                 <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Israjul</h1>
                   <p style={{ fontSize: 12 }}>
@@ -67,8 +69,22 @@ function About () {
                 </div>
               </div>
               <div className="scroll-box">
-                <div className="gradient-blue" />
-                <div className="text-informasi">
+             <div className="gradient-blue overflow-hidden">
+                 <img src="/img/default.png" alt="img member" className="w-100" />
+                </div>     <div className="text-informasi">
+                    <h1 style={{ fontWeight: 700, fontSize: 25 }}>John</h1>
+                    <p style={{ fontSize: 12 }}>
+                      Q&amp;A Tester &amp; Web support
+                    </p>
+                    <p style={{ fontSize: 12, wordWrap: "break-word" }}>
+                      {memberDesc}
+                    </p>
+                  </div>
+                </div>
+              <div className="scroll-box">
+               <div className="gradient-blue overflow-hidden">
+                 <img src="/img/linggo-member.png" alt="img member" className="w-100" />
+                </div>       <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Linggom</h1>
                   <p style={{ fontSize: 12 }}>Web developer</p>
                   <p style={{ fontSize: 12, wordWrap: "break-word" }}>
@@ -77,7 +93,9 @@ function About () {
                 </div>
               </div>
               <div className="scroll-box">
-                <div className="gradient-blue" />
+                <div className="gradient-blue overflow-hidden">
+                 <img src="/img/default.png" alt="img member" className="w-100" />
+                </div>
                 <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Januar</h1>
                   <p style={{ fontSize: 12 }}>Web developer</p>
@@ -87,7 +105,9 @@ function About () {
                 </div>
               </div>
               <div className="scroll-box">
-                <div className="gradient-blue" />
+                <div className="gradient-blue overflow-hidden">
+                 <img src="/img/fauzi-member.png" alt="img member" className="w-100" />
+                </div>
                 <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Fauzi</h1>
                   <p style={{ fontSize: 12 }}>
@@ -99,7 +119,23 @@ function About () {
                 </div>
               </div>
               <div className="scroll-box">
-                <div className="gradient-blue" />
+               <div className="gradient-blue overflow-hidden">
+                 <img src="/img/ghanim-member.png" alt="img member" className="w-100" />
+                </div>
+                <div className="text-informasi">
+                    <h1 style={{ fontWeight: 700, fontSize: 25 }}>Ghanim</h1>
+                    <p style={{ fontSize: 12 }}>
+                      Q&amp;A Tester &amp; Web support
+                    </p>
+                    <p style={{ fontSize: 12, wordWrap: "break-word" }}>
+                      {memberDesc}
+                    </p>
+                  </div>
+              </div>
+              <div className="scroll-box">
+               <div className="gradient-blue overflow-hidden">
+                 <img src="/img/default.png" alt="img member" className="w-100" />
+                </div>  
                 <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Axelle</h1>
                   <p style={{ fontSize: 12 }}>
@@ -111,21 +147,10 @@ function About () {
                 </div>
               </div>
               <div className="scroll-box">
-                <div className="gradient-blue" />
-                  <div className="text-informasi">
-                    <h1 style={{ fontWeight: 700, fontSize: 25 }}>Ghanim</h1>
-                    <p style={{ fontSize: 12 }}>
-                      Q&amp;A Tester &amp; Web support
-                    </p>
-                    <p style={{ fontSize: 12, wordWrap: "break-word" }}>
-                      {memberDesc}
-                    </p>
-                  </div>
+               <div className="gradient-blue overflow-hidden">
+                 <img src="/img/default.png" alt="img member" className="w-100" />
                 </div>
-              </div>
-              <div className="scroll-box">
-                <div className="gradient-blue" />
-                  <div className="text-informasi">
+                <div className="text-informasi">
                     <h1 style={{ fontWeight: 700, fontSize: 25 }}>Najih</h1>
                     <p style={{ fontSize: 12 }}>
                       Q&amp;A Tester &amp; Web support
@@ -133,21 +158,10 @@ function About () {
                     <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                       {memberDesc}
                     </p>
-                  </div>
                 </div>
-              </div>  
-              <div className="scroll-box">
-                <div className="gradient-blue" />
-                  <div className="text-informasi">
-                    <h1 style={{ fontWeight: 700, fontSize: 25 }}>John</h1>
-                    <p style={{ fontSize: 12 }}>
-                      Q&amp;A Tester &amp; Web support
-                    </p>
-                    <p style={{ fontSize: 12, wordWrap: "break-word" }}>
-                      {memberDesc}
-                    </p>
-                  </div>
-                </div>
+              </div>
+             </div>  
+          </div>
         </div>
           </div>
       <div style={{ height: 100 }} />

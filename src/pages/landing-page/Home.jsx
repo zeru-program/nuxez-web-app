@@ -133,7 +133,7 @@ function AboutInHome () {
       <AboutComponentDesc />
       </div>
       <div className="pi-30 container mt-2">
-        <button className="bg-transparent text-light fw-bold py-2 px-4" style={{"border":"1.5px solid #fff"}}>LEARN &gt;&gt;&gt;</button>
+        <button className="bg-transparent text-light fw-bold py-2 px-4" style={{"border":"1.5px solid #fff"}} onClick={() => window.location.href='/about-us'}>LEARN &gt;&gt;&gt;</button>
       </div>
     {/* about us singkat end */}
     </>
