@@ -74,7 +74,7 @@ function About () {
                 </div>     <div className="text-informasi">
                     <h1 style={{ fontWeight: 700, fontSize: 25 }}>John</h1>
                     <p style={{ fontSize: 12 }}>
-                      Q&amp;A Tester &amp; Web support
+                      Web developer
                     </p>
                     <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                       {memberDesc}
@@ -111,7 +111,7 @@ function About () {
                 <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Fauzi</h1>
                   <p style={{ fontSize: 12 }}>
-                    Q&amp;A Tester &amp; Web support
+                    Q&amp;A Tester
                   </p>
                   <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                     {memberDesc}
@@ -125,7 +125,7 @@ function About () {
                 <div className="text-informasi">
                     <h1 style={{ fontWeight: 700, fontSize: 25 }}>Ghanim</h1>
                     <p style={{ fontSize: 12 }}>
-                      Q&amp;A Tester &amp; Web support
+                      UI/UX Designer
                     </p>
                     <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                       {memberDesc}
@@ -139,7 +139,7 @@ function About () {
                 <div className="text-informasi">
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Axelle</h1>
                   <p style={{ fontSize: 12 }}>
-                    Q&amp;A Tester &amp; Web support
+                    Web support
                   </p>
                   <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                     {memberDesc}
@@ -153,7 +153,7 @@ function About () {
                 <div className="text-informasi">
                     <h1 style={{ fontWeight: 700, fontSize: 25 }}>Najih</h1>
                     <p style={{ fontSize: 12 }}>
-                      Q&amp;A Tester &amp; Web support
+                       Game developer
                     </p>
                     <p style={{ fontSize: 12, wordWrap: "break-word" }}>
                       {memberDesc}

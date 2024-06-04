@@ -77,7 +77,7 @@ function ProjectComponent () {
         <img src className="w-100" style={{"height":"200px","background-image":"linear-gradient(to right, #445dec, #6f0ed6)","color":"rgb(42, 48, 214)"}} alt />
         <div className="d-flex flex-column px-2">
           <h3 className="m-0 fw-bold">NuxApp (chatting chat)</h3>
-          <p className="m-0 fz-05" style={{"padding-right":"20px"}}>(comimg soon)</p>
+          <p className="m-0 fz-05" style={{"padding-right":"20px"}}>(coming soon)</p>
         </div>
       </div>
     )
