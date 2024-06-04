@@ -128,14 +128,12 @@ function ServiceHome () {
 function AboutInHome () {
     return (
     <>
-    {/* about us singkat start */}
       <div className="pi-20 container">
       <AboutComponentDesc />
       </div>
       <div className="pi-30 container mt-2">
         <button className="bg-transparent text-light fw-bold py-2 px-4" style={{"border":"1.5px solid #fff"}} onClick={() => window.location.href='/about-us'}>LEARN &gt;&gt;&gt;</button>
       </div>
-    {/* about us singkat end */}
     </>
     )
 }
@@ -149,7 +147,6 @@ function Home () {
    <Navbar />
    <main>
   <section className="px-0 pb-5" style={{"padding-inline":"0 !important"}}>
-    {/* isi content yang mau kamu develop didalam section main ya */}
     <Welcoming />
     <VisiMisi />
     <ServiceHome />
