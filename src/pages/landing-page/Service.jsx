@@ -104,8 +104,8 @@ function Service () {
    <>
    <Splash />
    <Navbar />
-   <main>
-  <section className="container pt-5 pb-5">
+   <main className='mt-2'>
+  <section className="container pt-5 pb-5 mt-5">
     {/* isi content yang mau kamu develop didalam section main ya */}
     <ServiceP />
     <Project />

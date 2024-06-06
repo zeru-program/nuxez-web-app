@@ -15,7 +15,7 @@ function Panel () {
       <>
         <Navbar />
   <div className="mt-5 py-5 text-black">
-  <nav className="navbar navbar-inverse visible-xs">
+  {/* <nav className="navbar navbar-inverse visible-xs">
     <div className="container-fluid">
       <div className="navbar-header">
         <button
@@ -49,23 +49,22 @@ function Panel () {
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> */}
   <div className="container-fluid mt-5">
     <div className="row content mt-4">
-      <div className="col-sm-3 sidenav hidden-xs">
-        <h2>Logo</h2>
-        <ul className="nav nav-pills nav-stacked">
+      <div className="col-sm-3 sidenav hidden-xs well">
+        <ul className="nav nav-pills nav-stacked mt-2">
           <li className="active">
             <a href="#section1">Dashboard</a>
           </li>
           <li>
-            <a href="#section2">Age</a>
+            <a href="#section2">Admins</a>
           </li>
           <li>
-            <a href="#section3">Gender</a>
+            <a href="#section3">Users</a>
           </li>
           <li>
-            <a href="#section3">Geo</a>
+            <a href="#section3">Devices</a>
           </li>
         </ul>
         <br />
@@ -74,7 +73,7 @@ function Panel () {
       <div className="col-sm-9">
         <div className="well">
           <h4>Dashboard</h4>
-          <p>Some text..</p>
+          <p>Hallo admin!</p>
         </div>
         <div className="row">
           <div className="col-sm-3">
@@ -97,43 +96,43 @@ function Panel () {
           </div>
           <div className="col-sm-3">
             <div className="well">
-              <h4>Bounce</h4>
-              <p>30%</p>
+              <h4>Visitors</h4>
+              <p>30 Millions</p>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-sm-4">
             <div className="well">
-              <p>Text</p>
-              <p>Text</p>
-              <p>Text</p>
+              <p>Reports</p>
+              <p>Messages</p>
+              <p>Frauds</p>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="well">
-              <p>Text</p>
-              <p>Text</p>
-              <p>Text</p>
+              <p>Countries</p>
+              <p>Continents</p>
+              <p>Cities</p>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="well">
-              <p>Text</p>
-              <p>Text</p>
-              <p>Text</p>
+              <p>Blogs</p>
+              <p>Posts</p>
+              <p>Comments</p>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-sm-8">
             <div className="well">
-              <p>Text</p>
+              <p>You have new message(s)!</p>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="well">
-              <p>Text</p>
+              <p>Updates</p>
             </div>
           </div>
         </div>

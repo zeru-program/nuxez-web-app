@@ -7,7 +7,7 @@ import BtnLogin from './BtnLogin'
 function ContactUsMap(){
   return(
     <>
-      <div className="text-center text-white animated fadeIn h5 gap-3 mt-3">
+      <div className="text-center text-white animated fadeIn h4 mt-3">
         <p className="bi bi-envelope"> nuxezstudio2024@gmail.com</p>
         <p className="bi bi-instagram"> nuxezstudio.id</p>
       </div>
@@ -22,7 +22,6 @@ function ContactUs () {
    <Navbar />
   <main>
     <section className="container pb-5">
-      {/* Content ditambahkan dari sini */}
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-6 contact-form">
@@ -32,7 +31,7 @@ function ContactUs () {
               </h1>
               <ContactUsMap />
             </div>
-            <div className="d-flex flex-column fadeIn animated" style={{ marginTop: 150 }}>
+            <div className="d-flex flex-column fadeIn animated" style={{ marginTop: 25 }}>
               <h2 className="text-left text-white fe-bold">Feedback</h2>
               <form>
                 <div className="mb-3">

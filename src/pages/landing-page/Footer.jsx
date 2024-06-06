@@ -1,8 +1,9 @@
 
 
 function Footer() {
-    let startYear = 2024;
-    let currentYear = (new Date().getFullYear());
+  let startYear = 2024;
+  let currentYear = (new Date().getFullYear());
+  let space = " ";
   return(
   <>
   <footer className="text-center text-lg-start bg-body-tertiary text-white">
@@ -37,7 +38,7 @@ function Footer() {
           <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <h6 className="text-uppercase fw-bold mb-4">
               <i className="bi bi-gem me-3" />
-              Nuxez Studio Indonesia.
+              Nuxez Studio Indonesia
             </h6>
             <p>
              Nuxez Studio Indonesia merupakan sebuah komunitas yang menggemari bahasa pemrograman. Kami membentuk wadah untuk bisa saling berkembang dengan berdiskusi dan mengerjakan projek-projek yang dinilai mampu mendongkrak potensi setiap anggota di dalamnya.
@@ -69,17 +70,17 @@ function Footer() {
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
             <p>
-              <i className="bi bi-home me-3" /> Jakarta, Indonesia
+              <i className="bi bi-map me-3" /> Jakarta, Indonesia
             </p>
             <p>
-              <i className="fas fa-envelope me-3" />
+              <i className="bi bi-envelope me-3" />
               nuxezstudio2024@gmail.com
             </p>
             <p>
-              <i className="fas fa-phone me-3" /> +6287774487198
+              <i className="bi bi-phone me-3" /> +6287774487198
             </p>
             <p>
-              <i className="fas fa-print me-3" /> +6287815832805
+              <i className="bi bi-phone me-3" /> +6287815832805
             </p>
           </div>
         </div>
@@ -88,10 +89,10 @@ function Footer() {
     <div
       className="text-center w-100 px-4"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
-          <p className="text-light m-0">Version app 1.0.0</p>
-          <p className="text-light m-0">Copyright &copy;
-            {startYear == 2024 ? startYear : startYear + ' - ' + currentYear}
-           Nuxez studio.  all right reversed.</p>
+          <p className="text-light m-0">App Version: 1.0.0</p>
+          <p className="text-light m-0">Copyright &copy; {space}
+            {startYear == 2024 ? startYear + space: startYear + ' - ' + currentYear + space}
+            Nuxez Studio Indonesia.  All rights reversed.</p>
     </div>
   </footer>
 </>

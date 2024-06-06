@@ -88,7 +88,15 @@ function About () {
                   <h1 style={{ fontWeight: 700, fontSize: 25 }}>Linggom</h1>
                   <p style={{ fontSize: 12 }}>Web developer</p>
                   <p style={{ fontSize: 12, wordWrap: "break-word" }}>
-                    {memberDesc}
+                    <blockquote>
+                      <p>
+                        "Saya adalah seorang web developer yang antusias dan menyukai hal baru.
+                        Saya percaya bahwa teknologi pemrograman dapat dimanfaatkan untuk
+                        menunjang keperluan di berbagai bidang. Saya selalu bersemangat untuk
+                        mempelajari teknologi baru dan menerapkannya untuk menciptakan solusi
+                        inovatif."
+                      </p>
+                    </blockquote>
                   </p>
                 </div>
               </div>
