@@ -14,7 +14,9 @@ function Panel () {
     return (
       <>
         <Navbar />
-        <p>Hi</p>
+        <div className="mt-5 py-5">
+         <h1 className="text-light">Test panel</h1>
+        </div>
         <Footer />
       </>
   )
