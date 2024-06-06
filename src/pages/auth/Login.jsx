@@ -50,7 +50,7 @@ function Box () {
           <input type="password" className="bg-transparent text-light" style={{ border:"2px solid white", padding: "5px" }} onInput={handleIptPass} />
           <button type="button" onClick={handleLogin} className="btn btn-outline-secondary text-light  mt-4">Login</button>
           <div className="mt-3 text-secondary text-center">
-           <p className="m-0">don't have an account? <a href="/register">Register</a></p>
+           <p className="m-0">Don't have an account? <a href="/register">Register</a></p>
           </div>
         </div>
    </div>
