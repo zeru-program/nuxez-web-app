@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../landing-page/Navbar'
+import Footer from '../landing-page/Footer'
 
 
 function Panel () {
@@ -12,7 +13,9 @@ function Panel () {
     // }
     return (
       <>
+        <Navbar />
         <p>Hi</p>
+        <Footer />
       </>
   )
 }
